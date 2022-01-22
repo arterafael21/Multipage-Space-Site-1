@@ -1,0 +1,87 @@
+/* text within comment is not executed with code
+h1, a, p {
+  color: white;
+} 
+*/
+* {
+  color: white;
+}
+
+body {
+  /* background-image: url("https://miro.medium.com/max/1200/1*9IIoxOcIbhMFFKMCI2ncuQ.jpeg"); */
+  background-image: url("https://wallpaperaccess.com/full/1145359.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: verdana;
+}
+
+header {
+  background-color: #D3D3D3;
+  text-align: center;
+}
+
+section {
+  display: block;
+}
+
+h1 {
+  color: green;
+}
+
+h1:first-letter {
+  font-size: 2em;
+}
+
+a[target="_blank"] {
+  color: blue;
+  background-color: white
+}
+
+nav a {
+  text-decoration: none;
+  margin: 20px;
+}
+nav a:link {
+  color: #720058;
+}
+
+nav a:visited {
+  color: #000075;
+}
+
+nav a:hover {
+  background-color: lightblue;
+  color: orange;
+}
+
+nav a:active {
+  background-color: green;
+  color: yellow;
+}
+
+main {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 35px
+}
+
+ol {
+   list-style-position: inside;
+}
+
+img {
+  width: 40%;
+  margin: 30px;
+}
+
+main a {
+  color: white
+}
+
+nav ul li {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  list-style-type: none;
+  font-size: .8em;
+}
